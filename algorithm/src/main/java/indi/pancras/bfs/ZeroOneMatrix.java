@@ -1,4 +1,4 @@
-package indi.pancras.dfs;
+package indi.pancras.bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
