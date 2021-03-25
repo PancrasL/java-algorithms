@@ -11,10 +11,6 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/gmcr6/">客隆图</a>
  */
 public class CloneGraph {
-    public static void main(String[] args) {
-
-    }
-
     // Definition for a Node.
     static class Node {
         public int val;
@@ -22,7 +18,7 @@ public class CloneGraph {
 
         public Node(int _val) {
             val = _val;
-            neighbors = new ArrayList<Node>();
+            neighbors = new ArrayList<>();
         }
 
         public Node(int _val, ArrayList<Node> _neighbors) {
