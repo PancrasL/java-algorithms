@@ -10,13 +10,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class DynamicArrayTest {
     @Test
     public void testConstructor() {
-        assertThrows(IllegalArgumentException.class, () -> new DynamicArray(-1));
+        assertThrows(IllegalArgumentException.class, () -> new DynamicArray<Integer>(-1));
     }
 
     @Test
     public void testAddOutOfBound() {
         assertThrows(IndexOutOfBoundsException.class, () -> {
-            DynamicArray<Integer> array = new DynamicArray<Integer>();
+            DynamicArray<Integer> array = new DynamicArray<>();
 
             array.add(3, 5);
         });
@@ -25,7 +25,7 @@ class DynamicArrayTest {
     @Test
     public void testRemoveOutOfBound() {
         assertThrows(IndexOutOfBoundsException.class, () -> {
-            DynamicArray<Integer> array = new DynamicArray<Integer>();
+            DynamicArray<Integer> array = new DynamicArray<>();
             array.add(1);
             array.add(2);
             array.add(3);
@@ -36,7 +36,7 @@ class DynamicArrayTest {
 
     @Test
     public void testCapacity() {
-        DynamicArray<Integer> array = new DynamicArray<Integer>();
+        DynamicArray<Integer> array = new DynamicArray<>();
 
         int max = 200000;
         for (int i = 0; i < max; i++) {
@@ -48,7 +48,7 @@ class DynamicArrayTest {
 
     @Test
     public void testDynamicArray() {
-        DynamicArray<Integer> array = new DynamicArray<Integer>();
+        DynamicArray<Integer> array = new DynamicArray<>();
 
         assertTrue(array.isEmpty());
 
