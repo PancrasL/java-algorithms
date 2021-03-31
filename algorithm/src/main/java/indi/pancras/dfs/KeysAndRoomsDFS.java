@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @author pancras
- * @解题思路 dfs
+ * @tip dfs
  * @create 2021/3/25 11:16
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/gle1r/">钥匙和房间</a>
  */

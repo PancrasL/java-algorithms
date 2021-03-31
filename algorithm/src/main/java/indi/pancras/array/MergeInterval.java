@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * @author pancras
  * @create 2021/3/11 16:49
- * @解题思路 将区间按照起始值排序，然后遍历一边，将连起来的区间组合在一起。
+ * @tip 将区间按照起始值排序，然后遍历一边，将连起来的区间组合在一起。
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/c5tv3/">合并区间</a>
  */
 public class MergeInterval {

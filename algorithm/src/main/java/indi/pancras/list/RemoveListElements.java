@@ -2,7 +2,7 @@ package indi.pancras.list;
 
 /**
  * @author pancras
- * @解题思路 添加假头节点简化代码
+ * @tip 添加假头节点简化代码
  * @create 2021/3/30 11:52
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/f9izv/">移除链表元素</a>
  */

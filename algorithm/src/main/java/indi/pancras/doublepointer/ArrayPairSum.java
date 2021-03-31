@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author pancras
- * @解题思路
+ * @tip
  * @create 2021/3/15 11:01
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/c24he/">数组拆分 I</a>
  */

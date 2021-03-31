@@ -2,7 +2,7 @@ package indi.pancras.list;
 
 /**
  * @author pancras
- * @解题思路 迭代法、递归法
+ * @tip 迭代法、递归法
  * @create 2021/3/30 11:41
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/f58sg/">反转链表</a>
  */

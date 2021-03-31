@@ -2,7 +2,7 @@ package indi.pancras.list;
 
 /**
  * @author pancras
- * @解题思路 1.使用快慢指针找到链表的后半段 2.使用原位算法将后半段反转 3.判断前半段和后端段是否相等 4. 复原链表
+ * @tip 1.使用快慢指针找到链表的后半段 2.使用原位算法将后半段反转 3.判断前半段和后端段是否相等 4. 复原链表
  * @create 2021/3/31 20:03
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/fov6t/">回文链表</a>
  */

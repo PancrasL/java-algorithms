@@ -3,7 +3,7 @@ package indi.pancras.array;
 /**
  * @author pancras
  * @create 2021/3/11 16:49
- * @解题思路 第一遍遍历记录包含0的行和列，第二遍遍历置0.
+ * @tip 第一遍遍历记录包含0的行和列，第二遍遍历置0.
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/ciekh/">零矩阵</a>
  */
 public class SetZeores {

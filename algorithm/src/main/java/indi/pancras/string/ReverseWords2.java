@@ -2,7 +2,7 @@ package indi.pancras.string;
 
 /**
  * @author pancras
- * @解题思路 根据空格截取单词，然后对单词进行翻转
+ * @tip 根据空格截取单词，然后对单词进行翻转
  * @create 2021/3/16 16:15
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/c8su7/">反转字符串中的单词 III</a>
  */

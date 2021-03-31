@@ -3,7 +3,7 @@ package indi.pancras.array;
 /**
  * @author pancras
  * @create 2021/3/11 17:23
- * @解题思路 按对角条带遍历，注意矩阵的行和列数不同，小心边界处理
+ * @tip 按对角条带遍历，注意矩阵的行和列数不同，小心边界处理
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/ciekh/">对角线遍历</a>
  */
 public class DiagonalOrder {

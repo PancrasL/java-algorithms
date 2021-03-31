@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 快慢指针
+ * @tip 快慢指针
  * @create 2021/3/15 15:02
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/">去除重复元素</a>
  */

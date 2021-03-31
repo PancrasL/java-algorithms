@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author pancras
- * @解题思路 略
+ * @tip 略
  * @create 2021/3/15 21:35
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cuj3m/">前n行杨辉三角</a>
  */

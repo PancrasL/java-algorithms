@@ -2,7 +2,7 @@ package indi.pancras.string;
 
 /**
  * @author pancras
- * @解题思路 调用库函数s.split()
+ * @tip 调用库函数s.split()
  * @create 2021/3/15 9:31
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/crmp5/">翻转字符串里的单词</a>
  */

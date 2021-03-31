@@ -2,7 +2,7 @@ package indi.pancras.dynamic;
 
 /**
  * @author pancras
- * @解题思路 对于任意一点，最近的0必在其左上、左下、右上、右下四个方向之一。
+ * @tip 对于任意一点，最近的0必在其左上、左下、右上、右下四个方向之一。
  * @create 2021/3/25 10:51
  * @see <a href="https://leetcode-cn.com/problems/01-matrix/solution/2chong-bfs-xiang-jie-dp-bi-xu-miao-dong-by-sweetie/">01矩阵</a>
  */

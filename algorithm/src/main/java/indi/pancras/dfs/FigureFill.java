@@ -2,7 +2,7 @@ package indi.pancras.dfs;
 
 /**
  * @author pancras
- * @解题思路 DFS
+ * @tip DFS
  * @create 2021/3/23 16:45
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/g02cj/">图像渲染</a>
  */

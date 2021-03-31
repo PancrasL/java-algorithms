@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author pancras
- * @解题思路 手写split，使用left和right定位单词的左边界和有边界
+ * @tip 手写split，使用left和right定位单词的左边界和有边界
  * @create 2021/3/15 9:55
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/crmp5/">翻转字符串里的单词</a>
  */

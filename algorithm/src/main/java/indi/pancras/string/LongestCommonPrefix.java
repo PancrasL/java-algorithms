@@ -3,7 +3,7 @@ package indi.pancras.string;
 /**
  * @author pancras
  * @create 2021/3/12 13:36
- * @解题思路 顺序遍历找最长公共前缀
+ * @tip 顺序遍历找最长公共前缀
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/ceda1/">最长公共前缀</a>
  */
 public class LongestCommonPrefix {

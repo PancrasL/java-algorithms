@@ -3,7 +3,7 @@ package indi.pancras.string;
 /**
  * @author pancras
  * @create 2021/3/12 13:58
- * @解题思路 中心扩散法：以每一个字符为中心寻找回文串
+ * @tip 中心扩散法：以每一个字符为中心寻找回文串
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/conm7/">最长回文子串</a>
  */
 public class LongestPalindrome {

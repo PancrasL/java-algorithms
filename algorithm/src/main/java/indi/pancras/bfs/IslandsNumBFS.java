@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * @author pancras
- * @解题思路 使用队列+BFS求解
+ * @tip 使用队列+BFS求解
  * @create 2021/3/17 9:11
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/kbcqv/">岛屿数量</a>
  */

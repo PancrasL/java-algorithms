@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 快慢指针，看两指针是否会相交
+ * @tip 快慢指针，看两指针是否会相交
  * @create 2021/3/29 19:44
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/jbex5/">环形链表</a>
  */

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author pancras
  * @create 2021/3/15 14:09
- * @解题思路 二分查找法：略  双指针法：左右指针向中间靠拢，和大了右指针左移，和小了左指针右移
+ * @tip 二分查找法：略  双指针法：左右指针向中间靠拢，和大了右指针左移，和小了左指针右移
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cnkjg/">两数之和 II - 输入有序数组</a>
  */
 public class TwoSum {

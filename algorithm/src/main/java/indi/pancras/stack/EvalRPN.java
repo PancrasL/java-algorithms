@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author pancras
- * @解题思路 遇到数字入栈，遇到算符出栈两次计算后再入栈
+ * @tip 遇到数字入栈，遇到算符出栈两次计算后再入栈
  * @create 2021/3/22 20:13
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/gomvm/">逆波兰表达式求值</a>
  */

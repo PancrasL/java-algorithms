@@ -2,7 +2,7 @@ package indi.pancras.dynamic;
 
 /**
  * @author pancras
- * @解题思路 动态规划，i从1到n，依次寻找i的最优值
+ * @tip 动态规划，i从1到n，依次寻找i的最优值
  * @create 2021/3/22 11:03
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/kfgtt/">完全平方数</a>
  */

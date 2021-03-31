@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author pancras
- * @解题思路 对于每一个温度，当栈为空或小于等于栈首元素时入栈，当大于栈首元素时出栈，出到栈为空或小于等于栈首元素，在出栈时生成对应结果集。
+ * @tip 对于每一个温度，当栈为空或小于等于栈首元素时入栈，当大于栈首元素时出栈，出到栈为空或小于等于栈首元素，在出栈时生成对应结果集。
  * @create 2021/3/22 19:20
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/genw3/">每日温度</a>
  */

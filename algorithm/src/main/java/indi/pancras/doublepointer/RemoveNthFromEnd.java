@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 快指针先于满指针移动n步
+ * @tip 快指针先于满指针移动n步
  * @create 2021/3/29 20:58
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/jf1cc/">删除链表的倒数第N个节点</a>
  */

@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 双指针
+ * @tip 双指针
  * @create 2021/3/16 16:36
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/c3ki5/">寻找旋转排序数组中的最小值</a>
  */

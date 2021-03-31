@@ -2,7 +2,7 @@ package indi.pancras.list;
 
 /**
  * @author pancras
- * @解题思路 双指针交叉前进
+ * @tip 双指针交叉前进
  * @create 2021/3/31 19:39
  * @see <a href="https://leetcode-cn.com/leetbook/read/linked-list/fe0kj/">奇偶链表</a>
  */
