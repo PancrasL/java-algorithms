@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 双指针
+ * @tip 双指针
  * @create 2021/3/16 16:45
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cq376/">删除排序数组中的重复项</a>
  */

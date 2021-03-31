@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author pancras
- * @解题思路 使用辅助栈minStack记录最小元素，当入栈时，元素条件性入辅助栈; 当出栈时，元素条件行出辅助栈。注意：Integer的比较要使用obj1.equals(obj2)
+ * @tip 使用辅助栈minStack记录最小元素，当入栈时，元素条件性入辅助栈; 当出栈时，元素条件行出辅助栈。注意：Integer的比较要使用obj1.equals(obj2)
  * @create 2021/3/22 11:31
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/g5l7d/">最小栈</a>
  */

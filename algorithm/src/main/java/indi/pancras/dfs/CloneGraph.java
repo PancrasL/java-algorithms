@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author pancras
- * @解题思路 使用hashMap存储已经拷贝过的节点，其中key为原节点，value为拷贝节点
+ * @tip 使用hashMap存储已经拷贝过的节点，其中key为原节点，value为拷贝节点
  * @create 2021/3/23 13:39
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/gmcr6/">客隆图</a>
  */

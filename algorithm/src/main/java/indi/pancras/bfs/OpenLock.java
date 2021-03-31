@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * @author pancras
- * @解题思路 BFS，使用 addOne 和 minusOne 简化代码
+ * @tip BFS，使用 addOne 和 minusOne 简化代码
  * @create 2021/3/17 11:09
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/kj48j/">打开转盘锁</a>
  */

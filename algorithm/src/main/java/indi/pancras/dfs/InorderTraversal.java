@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author pancras
- * @解题思路 DFS中序遍历
+ * @tip DFS中序遍历
  * @create 2021/3/23 15:49
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/gnq5i/">二叉树的中序遍历</a>
  */

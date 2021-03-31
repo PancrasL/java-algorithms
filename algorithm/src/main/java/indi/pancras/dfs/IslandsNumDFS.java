@@ -2,7 +2,7 @@ package indi.pancras.dfs;
 
 /**
  * @author pancras
- * @解题思路 使用DFS求解
+ * @tip 使用DFS求解
  * @create 2021/3/17 10:07
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/kbcqv/">岛屿数量</a>
  */

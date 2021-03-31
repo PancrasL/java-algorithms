@@ -4,7 +4,7 @@ package indi.pancras.array;
 /**
  * @author pancras
  * @create 2021/3/11 16:49
- * @解题思路 第一遍遍历数组计算累加和，第二遍遍历数组寻找中间索引。
+ * @tip 第一遍遍历数组计算累加和，第二遍遍历数组寻找中间索引。
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/yf47s/">寻找数组的中心索引</a>
  */
 public class PivotIndex {

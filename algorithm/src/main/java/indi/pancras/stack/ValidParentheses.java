@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author pancras
- * @解题思路 左括号入栈，右括号出栈，如果左右括号不匹配则无效
+ * @tip 左括号入栈，右括号出栈，如果左右括号不匹配则无效
  * @create 2021/3/22 18:22
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/g9d0h/">有效的括号</a>
  */

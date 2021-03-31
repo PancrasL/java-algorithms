@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * @author pancras
- * @解题思路 BFS图遍历，将0视为原点，然后从各个0开始一圈一圈向外扩散
+ * @tip BFS图遍历，将0视为原点，然后从各个0开始一圈一圈向外扩散
  * @create 2021/3/23 17:07
  * @see <a href="https://leetcode-cn.com/leetbook/read/queue-stack/g7pyt/">01矩阵</a>
  */

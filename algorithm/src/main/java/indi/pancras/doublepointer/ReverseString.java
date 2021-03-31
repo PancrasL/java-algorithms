@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 双指针遍历
+ * @tip 双指针遍历
  * @create 2021/3/15 10:53
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cacxi/">反转字符串</a>
  */

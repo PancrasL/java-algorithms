@@ -2,7 +2,7 @@ package indi.pancras.doublepointer;
 
 /**
  * @author pancras
- * @解题思路 用双指针模拟队列：右侧入队直到>target → 左侧出队直到<target → 更新result → 重复执行第一步
+ * @tip 用双指针模拟队列：右侧入队直到>target → 左侧出队直到<target → 更新result → 重复执行第一步
  * @create 2021/3/15 19:43
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/c0w4r/">长度最小的子数组</a>
  */

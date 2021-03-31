@@ -3,7 +3,7 @@ package indi.pancras.array;
 /**
  * @author pancras
  * @create 2021/3/11 16:49
- * @解题思路 二分查找
+ * @tip 二分查找
  * @see <a href="https://leetcode-cn.com/leetbook/read/array-and-string/cxqdh/">搜素插入位置</a>
  */
 public class SearchInsert {

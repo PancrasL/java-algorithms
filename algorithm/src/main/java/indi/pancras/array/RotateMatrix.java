@@ -3,7 +3,7 @@ package indi.pancras.array;
 /**
  * @author pancras
  * @create 2021/3/11 16:49
- * @解题思路 原位旋转，从最外圈旋转，一直到最内圈
+ * @tip 原位旋转，从最外圈旋转，一直到最内圈
  * @see <a href= "https://leetcode-cn.com/leetbook/read/array-and-string/clpgd/">旋转矩阵</a>
  */
 public class RotateMatrix {
