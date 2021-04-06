@@ -18,11 +18,11 @@ public class RotateMatrix {
         public void rotate(int[][] matrix) {
             int N = matrix.length;
             for (int row = 0; row < N / 2; row++) {
-                rotateImp(matrix, row, N - row - 1, row, N - row - 1);
+                rotateRing(matrix, row, N - row - 1, row, N - row - 1);
             }
         }
 
-        private void rotateImp(int[][] matrix, int row1, int row2, int col1, int col2) {
+        private void rotateRing(int[][] matrix, int row1, int row2, int col1, int col2) {
             for (int offset = 0; offset < (col2 - col1); offset++) {
                 int temp = matrix[row1][col1 + offset];
                 matrix[row1][col1 + offset] = matrix[row2 - offset][col1];
