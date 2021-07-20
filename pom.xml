@@ -11,6 +11,8 @@
     <modules>
         <module>data-structure</module>
         <module>algorithm</module>
+        <module>hot-100</module>
+        <module>sword-offer</module>
     </modules>
 
     <properties>
