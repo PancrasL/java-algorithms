@@ -11,6 +11,7 @@
     <modules>
         <module>data-structure</module>
         <module>algorithm</module>
+        <module>hot100</module>
     </modules>
 
     <properties>
