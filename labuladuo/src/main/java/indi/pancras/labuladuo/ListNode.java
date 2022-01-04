@@ -1,5 +1,8 @@
 package indi.pancras.labuladuo;
 
+/**
+ * 基本数据结构：链表节点
+ */
 public class ListNode {
     public int val;
     public ListNode next;
