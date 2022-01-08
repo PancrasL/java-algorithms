@@ -1,8 +1,13 @@
 package indi.pancras.labuladuo.datastructure.graph;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.PriorityQueue;
 
+/**
+ * 最小生成树
+ */
 public class MinimumCost1135 {
     // Kruskal算法
     class Solution {
@@ -60,8 +65,57 @@ public class MinimumCost1135 {
             return x;
         }
     }
-    // Prim算法
-    class Solution1{
 
+    // Prim算法
+    class Solution1 {
+        class Edge {
+            int a;
+            int b;
+            int cost;
+
+            public Edge(int a, int b, int cost) {
+                this.a = a;
+                this.b = b;
+                this.cost = cost;
+            }
+        }
+
+        public int minimumCost(int n, int[][] connections) {
+            // build graph
+            List<Edge>[] graph = new ArrayList[n + 1];
+            for (int i = 0; i <= n; i++) {
+                graph[i] = new ArrayList<>();
+            }
+            for (int[] connection : connections) {
+                graph[connection[0]].add(new Edge(connection[0], connection[1], connection[2]));
+                graph[connection[1]].add(new Edge(connection[1], connection[0],connection[2]));
+            }
+            // Prim
+            boolean[] visit = new boolean[n + 1];
+            PriorityQueue<Edge> queue = new PriorityQueue<>((o1, o2) -> o1.cost - o2.cost);
+            visit[1] = true;
+            queue.addAll(graph[1]);
+            int cost = 0;
+            int edgeCnt = 0;
+            while (!queue.isEmpty()) {
+                Edge poll = queue.poll();
+                if (visit[poll.b]) {
+                    continue;
+                }
+                cost += poll.cost;
+                edgeCnt++;
+                visit[poll.b] = true;
+                if (edgeCnt == n - 1) {
+                    break;
+                }
+                for (Edge edge : graph[poll.b]) {
+                    if (!visit[edge.b]) {
+                        queue.add(edge);
+                    }
+                }
+            }
+            return edgeCnt == n - 1 ? cost : -1;
+        }
     }
 }
+
