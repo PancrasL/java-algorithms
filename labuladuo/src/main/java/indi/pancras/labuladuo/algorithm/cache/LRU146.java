@@ -1,4 +1,4 @@
-package indi.pancras.labuladuo.algorithm.lru;
+package indi.pancras.labuladuo.algorithm.cache;
 
 import java.util.HashMap;
 
