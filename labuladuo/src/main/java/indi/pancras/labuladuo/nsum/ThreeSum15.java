@@ -13,6 +13,7 @@ public class ThreeSum15 {
             }
             Arrays.sort(nums);
 
+            // 固定第一个数，将问题转换为两数之和
             for (int i = 0; i < nums.length; i++) {
                 if (nums[i] > 0) {
                     return result;

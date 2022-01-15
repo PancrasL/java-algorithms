@@ -12,6 +12,7 @@ public class FourSum18 {
                 return result;
             }
             Arrays.sort(nums);
+            // 固定前两个数，将问题转换为两数之和
             for (int aIndex = 0; aIndex < nums.length; aIndex++) {
                 for (int bIndex = aIndex + 1; bIndex < nums.length; bIndex++) {
                     int abSum = nums[aIndex] + nums[bIndex];
