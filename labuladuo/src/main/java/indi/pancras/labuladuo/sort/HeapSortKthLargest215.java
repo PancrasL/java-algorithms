@@ -1,6 +1,6 @@
 package indi.pancras.labuladuo.sort;
 
-public class KthLargest215 {
+public class HeapSortKthLargest215 {
 
     class Solution {
         class MaxHeap {
