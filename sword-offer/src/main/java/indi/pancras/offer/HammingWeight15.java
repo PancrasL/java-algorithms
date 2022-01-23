@@ -2,13 +2,15 @@ package indi.pancras.offer;
 
 public class HammingWeight15 {
     class Solution {
-        public int minArray(int[] numbers) {
-            for (int i = 0; i < numbers.length - 1; i++) {
-                if (numbers[i] > numbers[i + 1]) {
-                    return numbers[i + 1];
-                }
+        // you need to treat n as an unsigned value
+        public int hammingWeight(int n) {
+            int cnt = 0;
+            while (n != 0) {
+                cnt++;
+                // 消除最右边的1
+                n = n & (n - 1);
             }
-            return numbers[0];
+            return cnt;
         }
     }
 }
