@@ -13,6 +13,7 @@
         <module>algorithm</module>
         <module>hot100</module>
         <module>labuladuo</module>
+        <module>sword-offer</module>
     </modules>
 
     <properties>
