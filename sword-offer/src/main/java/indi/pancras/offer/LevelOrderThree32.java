@@ -1,26 +1,29 @@
 package indi.pancras.offer;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
 import indi.pancras.TreeNode;
 
-public class LevelOrder32 {
+public class LevelOrderThree32 {
     class Solution {
-        public int[] levelOrder(TreeNode root) {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> result = new ArrayList<>();
             if (root == null) {
-                return new int[0];
+                return result;
             }
-            List<Integer> result = new ArrayList<>();
             Queue<TreeNode> queue = new LinkedList<>();
             queue.add(root);
+            boolean leftToRight = true;
             while (!queue.isEmpty()) {
                 int size = queue.size();
+                ArrayList<Integer> levelValue = new ArrayList<>();
                 for (int i = 0; i < size; i++) {
                     TreeNode node = queue.poll();
-                    result.add(node.val);
+                    levelValue.add(node.val);
                     if (node.left != null) {
                         queue.add(node.left);
                     }
@@ -28,13 +31,14 @@ public class LevelOrder32 {
                         queue.add(node.right);
                     }
                 }
+                if (!leftToRight) {
+                    Collections.reverse(levelValue);
+                }
+                leftToRight = !leftToRight;
+                result.add(levelValue);
             }
 
-            int[] res = new int[result.size()];
-            for (int i = 0; i < res.length; i++) {
-                res[i] = result.get(i);
-            }
-            return res;
+            return result;
         }
     }
 }
