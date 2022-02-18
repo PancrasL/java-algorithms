@@ -1,4 +1,4 @@
-package indi.pancras.hot100.easy;
+package indi.pancras.hot100.firsttime;
 
 import java.util.HashMap;
 

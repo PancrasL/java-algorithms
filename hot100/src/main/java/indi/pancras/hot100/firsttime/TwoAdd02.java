@@ -1,4 +1,4 @@
-package indi.pancras.hot100.medium;
+package indi.pancras.hot100.firsttime;
 
 import indi.pancras.hot100.ListNode;
 
