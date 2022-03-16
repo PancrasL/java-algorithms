@@ -2,14 +2,14 @@ package indi.pancras.labuladuo.datastructure.heap;
 
 public class FindKthLargest215 {
     class Solution {
-        class MaxHeap {
+        class MinHeap {
             int capacity;
             int size;
-            int[] maxHeap;
+            int[] heap;
 
-            public MaxHeap(int capacity) {
+            public MinHeap(int capacity) {
                 this.capacity = capacity;
-                this.maxHeap = new int[capacity + 1];
+                this.heap = new int[capacity + 1];
                 this.size = 0;
             }
 
@@ -17,10 +17,10 @@ public class FindKthLargest215 {
                 if (size == capacity) {
                     throw new IllegalStateException("Heap is full.");
                 }
-                maxHeap[++size] = val;
+                heap[++size] = val;
                 // 上浮
                 int index = size;
-                while (index > 1 && maxHeap[index] > maxHeap[index / 2]) {
+                while (index > 1 && heap[index] < heap[index / 2]) {
                     swap(index, index / 2);
                     index /= 2;
                 }
@@ -28,14 +28,15 @@ public class FindKthLargest215 {
 
             public int poll() {
                 int removeElement = peek();
-                maxHeap[1] = maxHeap[size--];
+                heap[1] = heap[size--];
                 // 下沉
                 int index = 1;
                 while (index <= size / 2) {
                     int leftChild = index * 2;
                     int rightChild = index * 2 + 1;
-                    if (maxHeap[index] < maxHeap[leftChild] || maxHeap[index] < maxHeap[rightChild]) {
-                        if (maxHeap[leftChild] > maxHeap[rightChild]) {
+                    // 当删除节点的元素大于 左孩子节点或者右孩子节点，代表该元素的值大，此时需要将该元素与左、右孩子节点中最小的值进行交换
+                    if (heap[index] > heap[leftChild] || heap[index] > heap[rightChild]) {
+                        if (heap[leftChild] < heap[rightChild]) {
                             swap(index, leftChild);
                             index = leftChild;
                         } else {
@@ -53,7 +54,7 @@ public class FindKthLargest215 {
                 if (size == 0) {
                     throw new IllegalStateException("Heap is empty.");
                 }
-                return maxHeap[1];
+                return heap[1];
             }
 
             public boolean isEmpty() {
@@ -65,21 +66,25 @@ public class FindKthLargest215 {
             }
 
             private void swap(int index1, int index2) {
-                int temp = maxHeap[index1];
-                maxHeap[index1] = maxHeap[index2];
-                maxHeap[index2] = temp;
+                int temp = heap[index1];
+                heap[index1] = heap[index2];
+                heap[index2] = temp;
             }
         }
+
         public int findKthLargest(int[] nums, int k) {
-            MaxHeap heap = new MaxHeap(nums.length);
+            MinHeap heap = new MinHeap(k);
             for (int num : nums) {
-                heap.push(num);
+                if (heap.size() < k) {
+                    heap.push(num);
+                } else {
+                    if (num > heap.peek()) {
+                        heap.poll();
+                        heap.push(num);
+                    }
+                }
             }
-            int res = 0;
-            for (int i = 0; i < k; i++) {
-                res = heap.poll();
-            }
-            return res;
+            return heap.peek();
         }
     }
 }

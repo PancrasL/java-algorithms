@@ -13,6 +13,9 @@
         <module>algorithm</module>
         <module>hot100</module>
         <module>labuladuo</module>
+        <module>sword-offer</module>
+        <module>top-offer</module>
+        <module>code-top</module>
     </modules>
 
     <properties>
